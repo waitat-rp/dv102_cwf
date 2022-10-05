@@ -94,6 +94,12 @@ class AppTest {
 		//3.897114317029974 : final count using length as 3.00
 		assertEquals(A1.calcArea(), 3.897114317029974);
 	}
+	@Test
+	void TestCalcLength() {
+		
+		assertEquals(A1.calcLength(3.897114317029974), 3.00);
+	
+	}
 
 	/**
 	 * Test method for {@link sddvops.dv102_cwf.App#calcVolume()}.

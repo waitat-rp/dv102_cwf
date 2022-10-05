@@ -36,6 +36,21 @@ public class App
 			
 		}
 		
+		public double calcLength(double area) {
+			this.area = area; 
+			
+			double root;
+			root = Math.sqrt(3)/4;			
+			
+			double result;
+			
+			result = Math.sqrt (area / root);
+			//area = root * length * length;
+			 
+			return result;
+			
+		}
+		
 		public double calcVolume() {
 			double root;
 			root = Math.sqrt(3)/4;			
