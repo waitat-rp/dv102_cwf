@@ -13,6 +13,8 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<!-- JaCoCo properties -->
 		<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+		
+		
 		<jacoco.groupId>org.jacoco</jacoco.groupId>
 		<jacoco.artifactId>jacoco-maven-plugin</jacoco.artifactId>
 		<jacoco.version>0.8.7</jacoco.version>
@@ -37,7 +39,7 @@
 		<dependency>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.6</version>
+			<version>0.8.7</version>
 		</dependency>
 	</dependencies>
 	<build>
