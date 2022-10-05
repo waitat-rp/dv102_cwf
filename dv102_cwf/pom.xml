@@ -7,14 +7,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
+  
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<!-- JaCoCo properties -->
 		<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
-		
-		
 		<jacoco.groupId>org.jacoco</jacoco.groupId>
 		<jacoco.artifactId>jacoco-maven-plugin</jacoco.artifactId>
 		<jacoco.version>0.8.7</jacoco.version>
@@ -39,7 +38,7 @@
 		<dependency>
 			<groupId>org.jacoco</groupId>
 			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.7</version>
+			<version>0.8.6</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -91,18 +90,14 @@
 				<version>3.1.0</version>
 			</plugin>
 			<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-		
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-              </plugin>
-      
-			
 			<plugin>
 				<artifactId>maven-resources-plugin</artifactId>
 				<version>3.0.2</version>
 			</plugin>
-			
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+			</plugin>
 			<plugin>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.1</version>
