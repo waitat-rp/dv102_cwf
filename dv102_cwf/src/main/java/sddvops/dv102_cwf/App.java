@@ -4,6 +4,7 @@ public class App
 {
 	private double length;
 	private double area;
+	private double VL;
 	
 		 
 		public App(double length) {
